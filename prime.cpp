@@ -32,8 +32,10 @@ long long countModOps(PrimeFn isPrime, int lo, int hi) {
     long long total = 0;
     for (int n = lo; n <= hi; ++n) {
         long long ops = 0;
-
-        (void)isPrime(n, &ops);
+        isPrime(n, &ops);
+        if (ops == 0) {
+            ops = 1;
+        }
         total += ops;
     }
     return total;
