@@ -1,0 +1,14 @@
+[
+{
+  "directory": "C:/Users/jaidx/OneDrive/Desktop/ECE 3514/A1-Prime/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/prime.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\prime.dir\\prime.cpp.obj -c \"C:\\Users\\jaidx\\OneDrive\\Desktop\\ECE 3514\\A1-Prime\\prime.cpp\"",
+  "file": "C:/Users/jaidx/OneDrive/Desktop/ECE 3514/A1-Prime/prime.cpp",
+  "output": "CMakeFiles/prime.dir/prime.cpp.obj"
+},
+{
+  "directory": "C:/Users/jaidx/OneDrive/Desktop/ECE 3514/A1-Prime/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/main.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\main.dir\\main.cpp.obj -c \"C:\\Users\\jaidx\\OneDrive\\Desktop\\ECE 3514\\A1-Prime\\main.cpp\"",
+  "file": "C:/Users/jaidx/OneDrive/Desktop/ECE 3514/A1-Prime/main.cpp",
+  "output": "CMakeFiles/main.dir/main.cpp.obj"
+}
+]

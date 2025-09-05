@@ -1,0 +1,4 @@
+C:/Users/jaidx/OneDrive/Desktop/ECE 3514/A1-Prime/build/CMakeFiles/prime.dir
+C:/Users/jaidx/OneDrive/Desktop/ECE 3514/A1-Prime/build/CMakeFiles/main.dir
+C:/Users/jaidx/OneDrive/Desktop/ECE 3514/A1-Prime/build/CMakeFiles/edit_cache.dir
+C:/Users/jaidx/OneDrive/Desktop/ECE 3514/A1-Prime/build/CMakeFiles/rebuild_cache.dir
