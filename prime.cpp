@@ -10,7 +10,7 @@ bool isPrimeHalf(int n, long long* modOps) {
     if ((n & 1) == 0) return false;
 
     for (int i = 3; i <= n / 2; i += 2) {
-        bump(modOps);                // counting the modulo 
+        bump(modOps);
         if (n % i == 0) return false;
     }
     return true;
