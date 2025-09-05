@@ -10,7 +10,7 @@ bool isPrimeHalf(int n, long long* modOps) {
     if ((n & 1) == 0) return false;
 
     for (int i = 3; i <= n / 2; i += 2) {
-        if (modOps) (*modOps)++;
+        bump(modOps);
         if (n % i == 0) return false;
     }
     return true;
@@ -22,7 +22,7 @@ bool isPrimeSqrt(int n, long long* modOps) {
     if ((n & 1) == 0) return false;
 
     for (int i = 3; 1LL * i * i <= n; i += 2) {
-        if (modOps) (*modOps)++;
+        bump(modOps);
         if (n % i == 0) return false;
     }
     return true;
@@ -32,9 +32,8 @@ long long countModOps(PrimeFn isPrime, int lo, int hi) {
     long long total = 0;
     for (int n = lo; n <= hi; ++n) {
         long long ops = 0;
-        if (isPrime(n, &ops)) {
-            total += ops;
-        }
+        (void)isPrime(n, &ops);
+        total += ops;
     }
     return total;
 }
